@@ -1,0 +1,40 @@
+.overall {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.title {
+    display: flexbox;
+    flex: 1;
+    width: 100%;
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation-menu {
+    display: flexbox;
+    flex: 1;
+    background-color: cadetblue;
+}
+
+.main-content {
+    display: flexbox;
+    flex: 4;
+    background-color: rgb(125, 125, 190);
+}
+
+.menu-list {
+    list-style: none;
+    margin: auto;
+    padding: 0;
+}
+
+li {
+    margin: 30px;
+}
